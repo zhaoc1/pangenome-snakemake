@@ -9,7 +9,7 @@
 
 2. Creat a new Conda environment (assumes you have Miniconda)
   ```bash
-  conda create -n my_pan -c bioconda snakemake
+  conda create -n my_pan --file=conda-requirements.txt --quiet --yes
   ```
 
 ## Running Roary
