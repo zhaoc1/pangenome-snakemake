@@ -24,4 +24,14 @@
   snakemake _all_prokka
   ```
  
+3. Collect GFF files into gffs/
+  ```bash
+  mkdir prokka_gffs
+  cp fnas/prokka_*/*.gff prokka_gffs
+  ```
  
+## Creating the pangenome
+  ```bash
+  snakemake run_roary
+  ```
+
