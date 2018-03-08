@@ -12,4 +12,16 @@
   conda create -n my_pan --file=conda-requirements.txt --quiet --yes
   ```
 
-## Running Roary
+## Annotating genomes
+
+1. Manually doanload reference genomes and clean up names
+  ```bash
+  snakemake clean_names
+  ```
+ 
+2. Run Prokka to get Roary compatible features files
+  ```bash
+  snakemake _all_prokka
+  ```
+ 
+ 
