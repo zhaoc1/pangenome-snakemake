@@ -1,0 +1,7 @@
+channels:
+ - bioconda
+dependencies:
+ - roary
+ - prokka
+ - fasttree
+

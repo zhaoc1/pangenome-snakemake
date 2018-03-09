@@ -1,0 +1,9 @@
+snakemake
+prokka
+fasttree
+roary
+matplotlib
+biopython
+numpy
+pandas
+seaborn

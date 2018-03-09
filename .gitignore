@@ -1,0 +1,8 @@
+.DS_Store
+local/panphlan
+.snakemake/
+prokka_gffs/
+roary_results*/
+fnas/
+roary.done
+genome_names
