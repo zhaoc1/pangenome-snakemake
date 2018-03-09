@@ -30,8 +30,13 @@
   cp fnas/prokka_*/*.gff prokka_gffs
   ```
  
-## Creating the pangenome
+## Creating the pangenome using Roay
   ```bash
   snakemake run_roary
   ```
-
+  
+## Visualizing Roary results
+  ```bash
+  snakemake visualize_roary
+  ```
+ 
